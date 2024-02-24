@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      background-color:#eeeeee;
+    }
+
+    .image-container {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; /* 图片和文字距离表格的距离 */
+    }
+
+    .image-container img {
+      width: 38px;
+      height: 38px;
+      display: block;
+      margin-right: 80px; /* 图片和文字的距离 */
+      border-radius: 50%;
+      position: relative;
+      left: 70px;
+    }
+
+    .text-container {
+      /* 文字样式 */
+    }
+
+    .table-container {
+      margin-top: 0; /* 适当的间距 */
+      width: 450px;
+      position: relative;
+      left: 120px;
+      
+    }
+
+    .table-container table:hover {
+      /* 表格样式 */
+    	border-collapse: collapse;
+      background-color: lightgray;
+
+    }
+
+    .new-image {
+      position: relative;
+      top: 15px; /* 负的上边距，与表格容器的间距相同但方向相反 */
+      width: 38px;
+      height: 38px;
+      display: block;
+    }
+    
+    #p1{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    }
+
+    p#p2 {
+	  position: absolute;
+    bottom: 0;
+    left: 45%;
+    align-self: flex-end;
+    text-align: center;
+    color:rgb(0, 102, 255);	
+    }
+
+    p#p3 {
+    position: absolute;
+    left: 1%;
+    top: 0%;
+    color: #d7e2ff;
+    font-size: 10px;
+    }
+
+    #bottomContent {
+    display: flex;
+    align-self: flex-end;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    }
+
+    th,td {
+      padding: 10px;
+    }
+    .comments {
+      position: relative;
+      left: 150px;
+    }
+
+    .comments table {
+      position: relative;
+      left: 0px;
+      top: -5px;
+    }
+
+  </style>
+  <title>Thefacebook/Feeds Page</title>
+</head>
+<body>
+  
+  <table width="100%" border="0" style="overflow: auto;">
+    <tr>
+        <td colspan="2" style="background:linear-gradient(to right,white,rgb(2, 2, 178),rgb(2, 2, 178))">
+            <h1 id="h1" style="color:rgb(169, 210, 255);font-family:Verdana, Geneva, Tahoma, sans-serif;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[ thefacebook ]<br>
+                <div id="p1">
+                &emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;home&emsp;
+                    search&emsp;
+                    post&emsp;
+                    global&emsp;
+                    feeds&emsp;
+                social net&emsp;&nbsp;invite&emsp;&nbsp;tag&emsp;&nbsp;
+                login&emsp;
+                logout&emsp;
+                sign in&emsp;
+                </div>
+              </h1>
+        </td>
+    </tr>
+  </table>
+
+<!--mark-->
+  <div class="image-container">
+    <img src="thefacebook/mark.png" alt="mark">
+    <div class="text-container">
+      <!-- 文字内容 -->
+      zuck
+    </div>
+  </div>
+
+  <div class="table-container">
+    <!-- 文字和表格内容 -->
+    <table border="1">
+      <tr>
+          <td>
+              <p style="font-size:16px;color:black;">
+            I am very excited to see Facebook reach one million members. Congratulations to every one who works hard for FB!
+            </p>
+          </td>
+      </tr> 
+  </table>
+  </div>
+
+<!--dustin-->
+  <div class="image-container">
+    <img class="new-image" src="thefacebook/dustin.png" alt="dustin">
+    <div class="new-image">
+      moskov
+    </div>
+  </div>
+
+  <div class="table-container">
+    <!-- 文字和表格内容 -->
+    <table border="1">
+      <tr>
+          <td>
+              <p style="font-size:16px;color:black;">
+              That's what we just did! Yooooooooo--
+              </p>
+          </td>
+      </tr>
+    </table>
+  </div>
+
+<!--sean-->  
+  <div class="image-container">
+    <img class="new-image" src="thefacebook/sean.jpg" alt="sean">
+    <div class="new-image">
+      sparker
+    </div>
+  </div>
+  
+  <div class="table-container">
+    <!-- 文字和表格内容 -->
+    <table border="1">
+      <tr>
+          <td>
+              <p style="font-size:16px;color:black;">
+                Enjoy the party, people! Who's got champagne? 
+              </p>
+          </td>
+      </tr>
+    </table>
+  </div>
+  <div class="comments">
+    <table class="comments" border="0">
+      <tr>
+        <td>
+          sparker&emsp;I've got champagne!
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<!--sean 2-->
+<div class="image-container">
+  <img class="new-image" src="thefacebook/sean.jpg" alt="sean">
+  <div class="new-image">
+    sparker
+  </div>
+</div>
+<div class="table-container">
+  <!-- 文字和表格内容 -->
+  <table border="1">
+    <tr>
+        <td>
+            <p style="font-size:16px;color:black;">
+              SHIT, WHO tf called the police???
+            </p>
+            <p style="font-size: 10px; color: red; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+              The post has been deleted by the administrator.
+            </p>
+        </td>
+    </tr>
+  </table>
+</div>
+
+  <p id="p3">
+    1011001 1001111 1010101 100000 
+    1000100 1001111 1001110 100111 
+    1010100 100000 1000111 1000101 <br>
+     1010100 100000 1010100 1001111 
+    100000 110101 110000 <br>110000 100000 
+    1001101 1001001 1001100 1001100 
+    1001001 1001111 1001110 100000 <br>
+    1000110 1010010 1001001 1000101 
+    1001110 1000100 1010011 <br>100000 
+    1010111 1001000 1001001 1010100 
+    1000101 1001111 1010101 1010100 <br>
+    100000 1001101 1000001 1001011 
+    1001001 1001110 <br>1000111 100000 
+    1000001 100000 1000110 1000101 
+    1010111 100000 1000101 1001110 <br>
+    1000101 1001101 1001001 1000101 
+    1010011 100000<br>
+  </p>
+  <div id="bottomContent">
+    <p id="p2" style="font-size: 10px;">
+        © a mark zuckerberg production
+        <br>
+        2004 - 2005
+    </p>
+  </div>
+</body>
+</html>
